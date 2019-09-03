@@ -1,6 +1,8 @@
 # MNIST
 Ran a deep learning model on the famous MNIST dataset. Models trained on the 60k training images and validated after each epoch on the 10k test images. The attached notebooks contain models which achieve ~99.5% test accuracy with less than 15k parameters and without the use of image augmentation.
 
+Also I did not use any special type of convolution throughout (dilated, depthwise separable, spatially separable, grouped, etc.) since MNIST is a relatively simple dataset. I plan to use and demonstrate them on the CIFAR-10 dataset soon.
+
 ## 1. Plain vanilla model
 ### Model features
 * Number of parameters: 14,322
